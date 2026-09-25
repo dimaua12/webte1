@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktívny pohľad na pracovné prostredie Dmytriia Ishchuka a nástroje, ktoré používa pri štúdiu informatiky.">
+  <meta property="og:title" content="Dmytrii Ishchuk | Pracovné prostredie">
+  <meta property="og:description" content="Pozrite si päť častí môjho pracovného miesta.">
+  <meta property="og:image" content="../img/workspace.jpg">
+  <title>Dmytrii Ishchuk | Pracovné prostredie</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Preskočiť na obsah</a>
+  <header class="site-header">
+    <div class="container masthead">
+      <a class="brand" href="../index.html" aria-label="Dmytrii Ishchuk – úvodná stránka">
+        <span class="monogram" aria-hidden="true">DI</span>
+        <span class="brand-text"><strong>Dmytrii Ishchuk</strong><small>Študujem aplikovanú informatiku a zaujímam sa o Linux a hardvér.</small></span>
+      </a>
+    </div>
+    <div class="navigation-bar">
+      <div class="container navigation-inner">
+        <button class="menu-button" type="button" aria-controls="main-nav" aria-expanded="false"><span aria-hidden="true">☰</span> Menu</button>
+        <nav class="main-nav" id="main-nav" aria-label="Hlavná navigácia">
+          <ul>
+            <li><a href="../index.html">Profil</a></li>
+            <li><a href="cv.html">Životopis</a></li>
+            <li><a href="workspace.html" aria-current="page">Pracovné prostredie</a></li>
+            <li><a href="schedule.html">Rozvrh</a></li>
+            <li><a href="map.html">Mapa</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="content">
+    <p class="eyebrow">Pracovné prostredie</p>
+    <h1>Ako pracujem</h1>
+    <p class="lead">Na obrázku je môj pracovný stôl. Vyberte označený bod a prečítajte si, na čo ho používam.</p>
+
+    <section aria-labelledby="desk-title">
+      <h2 id="desk-title">Môj pracovný stôl</h2>
+      <figure class="workspace-figure">
+        <div class="workspace-photo">
+          <img src="../img/workspace.jpg" alt="Pracovný stôl s monitorom, bielou klávesnicou, myšou, notebookom a podložkou" width="1920" height="2560">
+
+        <input class="hotspot" type="radio" name="desk-spot" id="spot-monitor" aria-label="Monitor" style="--spot-x: 48%; --spot-y: 24%;" checked>
+        <input class="hotspot" type="radio" name="desk-spot" id="spot-keyboard" aria-label="Biela klávesnica" style="--spot-x: 48%; --spot-y: 57%;">
+        <input class="hotspot" type="radio" name="desk-spot" id="spot-mouse" aria-label="Myš" style="--spot-x: 91%; --spot-y: 59%;">
+        <input class="hotspot" type="radio" name="desk-spot" id="spot-laptop" aria-label="Notebook" style="--spot-x: 49%; --spot-y: 82%;">
+        <input class="hotspot" type="radio" name="desk-spot" id="spot-mat" aria-label="Podložka na stole" style="--spot-x: 9%; --spot-y: 68%;">
+
+        <div class="hotspot-panels" aria-live="polite">
+          <article class="hotspot-panel panel-monitor"><h3>Monitor</h3><p>Na veľkom monitore mám viac priestoru na čítanie dokumentácie a prácu s kódom.</p></article>
+          <article class="hotspot-panel panel-keyboard"><h3>Klávesnica</h3><p>Klávesnicu používam pri programovaní v Pythone a pri písaní školských projektov.</p></article>
+          <article class="hotspot-panel panel-mouse"><h3>Myš</h3><p>Myš mi pomáha pri práci s grafickým prostredím a pri úpravách dokumentov.</p></article>
+          <article class="hotspot-panel panel-laptop"><h3>Notebook</h3><p>Na notebooku skúšam Linux a učím sa, ako spolupracuje softvér s hardvérom.</p></article>
+          <article class="hotspot-panel panel-mat"><h3>Podložka</h3><p>Veľká podložka mi dáva dosť miesta pre klávesnicu aj myš.</p></article>
+        </div>
+        </div>
+        <figcaption>Moje pracovné miesto; označené body sa dajú vybrať myšou aj klávesnicou.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <address><a href="mailto:ischukdima15@gmail.com">ischukdima15@gmail.com</a><a href="tel:+421952170931">+421 952 170 931</a></address>
+      <p>© 2026 Dmytrii Ishchuk</p>
+      <p>Zdroje: <a href="../img/me.jpeg">portrét</a>, <a href="../img/workspace.jpg">pracovný stôl</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://leafletjs.com/">Leaflet</a></p>
+    </div>
+  </footer>
+</body>
+</html>

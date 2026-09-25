@@ -1,0 +1,11 @@
+W3C Nu HTML validator: https://validator.w3.org/nu/
+Dátum kontroly: 25. 9. 2026
+Vstup: obsah každého lokálneho HTML súboru, odoslaný ako text/html; charset=utf-8.
+
+index.html: {"version":"26.9.16","messages":[]}
+pages/cv.html: {"version":"26.9.16","messages":[]}
+pages/workspace.html: {"version":"26.9.16","messages":[]}
+pages/schedule.html: {"version":"26.9.16","messages":[]}
+pages/map.html: {"version":"26.9.16","messages":[]}
+
+Počet chýb a upozornení: 0 na každej stránke.

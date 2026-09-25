@@ -1,0 +1,14 @@
+W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
+Dátum kontroly: 25. 9. 2026
+Vstup: obsah každého lokálneho CSS súboru.
+
+css/styles.css:
+Congratulations! No Error Found.
+This document validates as CSS level 3 + null !
+Warnings (2): Due to their dynamic nature, CSS variables are currently not statically checked (riadky 380 a 381).
+
+css/print.css:
+Congratulations! No Error Found.
+This document validates as CSS level 3 + null !
+
+Počet chýb: 0 v oboch súboroch.

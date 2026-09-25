@@ -1,0 +1,69 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  body {
+    background: white;
+    color: black;
+    font-size: 9pt;
+  }
+
+  .site-header {
+    border: 0;
+  }
+
+  .monogram {
+    border: 1px solid black;
+    background: white;
+    color: black;
+  }
+
+  h1,
+  h2,
+  .eyebrow {
+    color: black;
+  }
+
+  .navigation-bar,
+  .menu-button,
+  .site-footer,
+  .skip-link {
+    display: none;
+  }
+
+  .masthead,
+  main {
+    padding-block: 0 8mm;
+  }
+
+  h1 {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 12pt;
+  }
+
+  .cv-layout {
+    grid-template-columns: 32% 68%;
+    border: 0;
+  }
+
+  .cv-sidebar,
+  .cv-main {
+    padding: 5mm;
+    background: white;
+  }
+
+  .cv-portrait {
+    width: 100px;
+    height: 120px;
+  }
+
+  .cv-sidebar h2:not(:first-of-type),
+  .cv-main section:not(:first-child) {
+    margin-top: 5mm;
+  }
+}
