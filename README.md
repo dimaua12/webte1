@@ -1,14 +1,16 @@
 # Dmytrii Ishchuk – online vizitka
 
-Meno: Dmytrii Ishchuk  
-Krúžok: nebol uvedený v podkladoch  
-Odkaz na školský server: stránka zatiaľ nie je zverejnená
+**Meno:** Dmytrii Ishchuk
 
-Päť podstránok predstavuje môj profil, životopis, pracovný stôl, rozvrh a mapu. Na mape je okrem FEI STU aj výslovne ukážkový bod domova v Petržalke. Stránky sú vytvorené v HTML5, CSS a JavaScripte; na mape je použitá povolená knižnica Leaflet.
+**Krúžok:** 4
+
+**Odkaz na školský server:** [https://webte.iolab.sk/](https://webte.iolab.sk/)
+
+Na piatich stránkach predstavujem svoj profil, vzdelanie a zručnosti, pracovné prostredie a rozvrh na FEI STU. Interaktívna mapa zobrazuje moju školu a domov v ŠD Mladosť; umožňuje pridávať vlastné miesta, ukladať ich v prehliadači a vypočítať vzdialenosť ku škole alebo domovu. Web som vytvoril v HTML5, CSS a JavaScripte; knižnicu Leaflet používam iba na stránke s mapou.
 
 Zdroje:
 
-- Portrét a fotografia pracovného stola: vlastný archív.
+- Portrét a fotografia pracovného stola: môj vlastný archív (`img/me.jpeg`, `img/workspace.jpg`).
 - Rozvrh: osobný rozvrh z univerzitného informačného systému, súbor `docs/rozvrh.pdf`.
 - Poloha FEI STU: [stránka fakulty](https://www.fei.stuba.sk/sk/fakulta/o-nas/ako-nas-najdete).
 - Mapové podklady: [OpenStreetMap](https://www.openstreetmap.org/copyright).
