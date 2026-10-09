@@ -2,7 +2,7 @@
 
 **Meno:** Dmytrii Ishchuk
 
-**Krúžok:** 4
+**Krúžok:** cvicenie 13:00, pondelok
 
 **Odkaz na školský server:** [https://webte.iolab.sk/](https://webte.iolab.sk/)
 
