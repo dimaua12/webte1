@@ -11,7 +11,7 @@ Vo voľnom čase hrám šach a videohry s kamarátmi. Okrem toho rád cestujem, 
 
 -С , C++ , Python, Java, UML, JUnit, PostgreSQL, SQL, GitHub, Docker, Maven, .NET, Next.js
 
-- +421 952 170 931 , ischukdima15@gmail.com, Ovladam:slovensky,ukrajinsky,anglicky, rustinu
+- +4217777777, ischukdima@gmail.com, Ovladam:slovensky,ukrajinsky,anglicky, rustinu
 Adresa: Spojene staty slovenske, Holywoodska ves 52.
 
 -foto podla workspace
