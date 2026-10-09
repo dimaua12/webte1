@@ -1,5 +1,5 @@
 const SCHOOL = { name: "FEI STU", lat: 48.15251, lng: 17.07326 };
-const HOME = { name: "Domov (ukážkový bod)", lat: 48.111, lng: 17.112 };
+const HOME = { name: "SD Mladost / Domov", lat: 48.159008, lng: 17.064072};
 
 function haversineDistance(lat1, lng1, lat2, lng2) {
   const earthRadius = 6371;
@@ -48,7 +48,7 @@ if (mapElement) {
     }).addTo(map);
 
     const schoolMarker = L.marker([SCHOOL.lat, SCHOOL.lng]).addTo(map).bindPopup("FEI STU, Ilkovičova 3");
-    const homeMarker = L.marker([HOME.lat, HOME.lng]).addTo(map).bindPopup("Domov (ukážkový bod v Petržalke)");
+    const homeMarker = L.marker([HOME.lat, HOME.lng]).addTo(map).bindPopup("Domov, (SD MLADOST)");
 
     function addPointMarker(point, index) {
       const marker = L.marker([point.lat, point.lng]).addTo(map);
@@ -86,7 +86,7 @@ if (mapElement) {
       pointPopup.textContent = point.name + " – " + distanceText + " od cieľa";
       pointMarkers[index].bindPopup(pointPopup).openPopup();
       schoolMarker.bindPopup("FEI STU, Ilkovičova 3");
-      homeMarker.bindPopup("Domov (ukážkový bod v Petržalke)");
+      homeMarker.bindPopup("Domov / SD Mladost");
       const targetPopup = document.createElement("span");
       targetPopup.textContent = target.name + " – " + distanceText + " od bodu " + point.name;
       targetMarker.bindPopup(targetPopup);
