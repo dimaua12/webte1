@@ -1,12 +1,17 @@
 @media print {
+  :root {
+    --print-background: #ffffff;
+    --print-text: #000000;
+  }
+
   @page {
     size: A4;
     margin: 12mm;
   }
 
   body {
-    background: white;
-    color: black;
+    background: var(--print-background);
+    color: var(--print-text);
     font-size: 9pt;
   }
 
@@ -15,15 +20,15 @@
   }
 
   .monogram {
-    border: 1px solid black;
-    background: white;
-    color: black;
+    border: 1px solid var(--print-text);
+    background: var(--print-background);
+    color: var(--print-text);
   }
 
   h1,
   h2,
   .eyebrow {
-    color: black;
+    color: var(--print-text);
   }
 
   .navigation-bar,
@@ -54,7 +59,7 @@
   .cv-sidebar,
   .cv-main {
     padding: 5mm;
-    background: white;
+    background: var(--print-background);
   }
 
   .cv-portrait {

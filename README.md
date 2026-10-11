@@ -4,7 +4,7 @@
 
 **Krúžok:** cvicenie 13:00, pondelok
 
-**Odkaz na školský server:** [https://webte.iolab.sk/](https://webte.iolab.sk/)
+**Odkaz na školský server:** [https://webte1.fei.stuba.sk/~xishchukd/](https://webte1.fei.stuba.sk/~xishchukd/)
 
 Na piatich stránkach predstavujem svoj profil, vzdelanie a zručnosti, pracovné prostredie a rozvrh na FEI STU. Interaktívna mapa zobrazuje moju školu a domov v ŠD Mladosť; umožňuje pridávať vlastné miesta, ukladať ich v prehliadači a vypočítať vzdialenosť ku škole alebo domovu. Web som vytvoril v HTML5, CSS a JavaScripte; knižnicu Leaflet používam iba na stránke s mapou.
 
